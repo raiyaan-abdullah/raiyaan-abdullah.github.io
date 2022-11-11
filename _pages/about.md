@@ -18,16 +18,17 @@ Research Experience
 * UAV-Cop: An Airborne Traffic Accident Surveillance and Analysis Sytem
   * Research Assistant, 2022 - Present
   * Supervised by: Dr. Sejuti Rahman
+  
 This project aims to apply few-shot learning to detect Bangladesh-specific vehicles such as rickshaw, CNG, leguna, van gari from drone footage and oversee traffic accidents in various metropolitans of Bangladesh.
 
 
   
 Skills
 ======
-* Programming Languages/Platforms: Python, C++, MATLAB, LaTeX, Arduino
-* Machine Learning Libraries/Platforms: Tensorflow, PyTorch, Keras, OpenCV, Numpy, Scikit-learn, Weka
-* Web Languages/Platforms/Frameworks: HTML, CSS, Javascript, React, jQuery, Bootstrap, Django, Wordpress, Kajabi, Shopify, Clickfunnels
-* Media Software: Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, DaVinci Resolve
+* **Programming Languages/Platforms:** Python, C++, MATLAB, LaTeX, Arduino
+* **Machine Learning Libraries/Platforms:** Tensorflow, PyTorch, Keras, OpenCV, Numpy, Scikit-learn, Weka
+* **Web Languages/Platforms/Frameworks:** HTML, CSS, Javascript, React, jQuery, Bootstrap, Django, Wordpress, Kajabi, Shopify, Clickfunnels
+* **Media Software:** Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, DaVinci Resolve
 
 Publications
 ======
