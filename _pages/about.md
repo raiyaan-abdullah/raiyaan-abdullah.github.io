@@ -18,12 +18,9 @@ Research Experience
 * UAV-Cop: An Airborne Traffic Accident Surveillance and Analysis Sytem
   * Research Assistant, 2022 - Present
   * Supervised by: Dr. Sejuti Rahman
-  This project aims to apply few-shot learning to detect Bangladesh-specific vehicles such as rickshaw, CNG, leguna, van gari from drone footage and oversee traffic accidents in various metropolitans of Bangladesh.
+This project aims to apply few-shot learning to detect Bangladesh-specific vehicles such as rickshaw, CNG, leguna, van gari from drone footage and oversee traffic accidents in various metropolitans of Bangladesh.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+
   
 Skills
 ======
