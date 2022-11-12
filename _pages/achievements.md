@@ -1,14 +1,18 @@
 ---
 layout: archive
-title: "Achievements"
+title: ""
 permalink: /achievements/
 ---
 
 {% include base_path %}
 
-## AUST Mindsparks: Line Follower Robot competition
-  1st Runners-Up
-  January 2019
+# Awards
+
+*1st Runners-Up* - AUST Mindsparks: Line Follower Robot competition
+  January 2019, Ahsanullah University of Science and Technology
+
+*2nd Runners-Up* - BUET EEE Day Robofiesta: Line Follower Robot competition
+  January 2019, Ahsanullah University of Science and Technology
 
 {% for post in site.achievements %}
   {% include archive-single.html %}
