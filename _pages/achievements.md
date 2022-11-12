@@ -9,12 +9,10 @@ permalink: /achievements/
 Scholarships and Grants
 ======
 * **Special Grant in Research** 
-  * 2020-2021, *ICT Division, Government of Bangladesh*
-    
+  * 2020-2021, *ICT Division, Government of Bangladesh*\
     Our undergraduate thesis project idea was granted a generous amount of fund by the selection board. The G. O. Number is 179 for Round 3 of this grant in the fiscal year 2020-2021.
 * **IFIC Bank Trust Fund Research Grant** 
-  * 2019-2020, *IFIC Bank*
-    
+  * 2019-2020, *IFIC Bank*\
     Granted to students of selected departments who excelled in academics and other qualities. 
 
 Awards
