@@ -7,13 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-*Research Projects
+* Research Projects
 
 {% for post in site.researchprojects %}
   {% include archive-single.html %}
 {% endfor %}
 
-*Academic Projects
+* Academic Projects
 
 {% for post in site.academicprojects %}
   {% include archive-single.html %}
