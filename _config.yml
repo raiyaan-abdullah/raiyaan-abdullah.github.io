@@ -187,7 +187,10 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  achievements:
+  researchprojects:
+    output: true
+    permalink: /:collection/:path/
+  academicprojects:
     output: true
     permalink: /:collection/:path/
 
@@ -229,10 +232,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _researchprojects
   - scope:
       path: ""
-      type: portfolio
+      type: researchprojects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _academicprojects
+  - scope:
+      path: ""
+      type: academicprojects
     values:
       layout: single
       author_profile: true
