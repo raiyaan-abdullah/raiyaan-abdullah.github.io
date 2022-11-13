@@ -1,6 +1,6 @@
 ---
 title: "Pathfinder: A Fog Assisted Vision-Based System for Optimal Path Selection of Service Robots"
-collection: publications
+collection: achievements
 permalink: /publication/2020-08-26-pathfinder-a-fog-assisted-vision-based-system-for-optimal-path-selection-of-service-robots
 excerpt: ''
 date: 2020-08-26
