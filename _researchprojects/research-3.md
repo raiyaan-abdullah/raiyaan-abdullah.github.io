@@ -1,5 +1,5 @@
 ---
-title: "Haate-khori: An AI-Based Bengali Handwriting Teaching Robot for Children}{\textit{Intended for Publication"
+title: "Haate-khori: An AI-Based Bengali Handwriting Teaching Robot for Children"
 excerpt: "Supervisor: Prof. Dr. Lafifa Jamal, Sujan Sarker, 2020-Present<br/><img src='/images/500x300.png'>"
 collection: researchprojects
 ---
