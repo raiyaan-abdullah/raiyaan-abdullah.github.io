@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Raiyaan Abdullah's Portfolio Website"
+title                    : "Raiyaan Abdullah's Portfolio"
 title_separator          : "-"
 name                     : &name "Raiyaan Abdullah"
 description              : &description "personal description"
