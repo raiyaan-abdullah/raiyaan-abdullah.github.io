@@ -1,6 +1,6 @@
 ---
 title: "Artificial Intelligence for Automated Brain Hemorrhage Detection from CT Scans"
-excerpt: "Supervisor: Dr. Shamim Ahmed Deowan, 2022-Present<br/><img src='/images/500x300.png'>"
+excerpt: "Supervisor: Dr. Shamim Ahmed Deowan, 2022-Present"
 collection: researchprojects
 ---
 * Supervisor: Dr. Shamim Ahmed Deowan, 2022-Present
