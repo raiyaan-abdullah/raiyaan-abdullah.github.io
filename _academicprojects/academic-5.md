@@ -7,4 +7,4 @@ collection: academicprojects
 
 Line Follower Robots (LFRs) usually follow a black line on a white ground (or inverted colors) from starting point to end. I have worked on 10+ line follower robots for various inter-university competitions across Bangladesh.
 
-<img src='/images/lfr.jpg' style='width: 480px;max-width:100%'>
+<img src='/images/lfr.jpg' style='width: 480px;max-width:100%;'>

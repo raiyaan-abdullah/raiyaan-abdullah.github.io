@@ -8,8 +8,6 @@ collection: researchprojects
 
 A complete saline monitoring and management system has been developed that enables doctors and nurses to monitor and control saline flow of patients remotely. It acts automatically on critical situations like when saline level drops and back flow of blood should be prevented.
 
-<img src='/images/saline/fullsystem.jpg' style='width: 480px;max-width:100%'>
-<br/>
-<img src='/images/saline/fulldevice.jpg' style='width: 480px;max-width:100%'>
-<br/>
+<img src='/images/saline/fullsystem.jpg' style='width: 480px;max-width:100%;margin-bottom:15px;'>
+<img src='/images/saline/fulldevice.jpg' style='width: 480px;max-width:100%;margin-bottom:15px;'>
 <img src='/images/saline/home.jpg' style='width: 480px;max-width:100%'>
