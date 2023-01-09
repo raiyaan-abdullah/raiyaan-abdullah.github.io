@@ -1,6 +1,6 @@
 ---
 title: "Haate-khori: An AI-Based Bengali Handwriting Teaching Robot for Children"
-excerpt: "Intended for Publication, Supervisor: Prof. Dr. Lafifa Jamal, Sujan Sarker, 2020-Present<br/><img src='/images/handwriting.jpg' style'width: 800px;max-width:100%'>"
+excerpt: "Intended for Publication, Supervisor: Prof. Dr. Lafifa Jamal, Sujan Sarker, 2020-Present<br/><img src='/images/handwriting.jpg' style='width: 800px;max-width:100%'>"
 collection: researchprojects
 ---
 * Intended for Publication
