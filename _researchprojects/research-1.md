@@ -1,6 +1,6 @@
 ---
 title: "Design and Development of an Intelligent Assistance System for Elderly People"
-excerpt: "Undergraduate Thesis, Supervisor: Prof. Dr. Lafifa Jamal, 2020-2022<br/><img src='/images/500x300.png'>"
+excerpt: "Undergraduate Thesis, Supervisor: Prof. Dr. Lafifa Jamal, 2020-2022<br/><img src='/images/exercise/ex-gui-1.jpg' style='width: 480px;max-width:100%;margin-bottom:15px;display:block;'>"
 collection: researchprojects
 ---
 * Intended for Publication
@@ -16,6 +16,7 @@ Module 1 - A Novel IOT Based Medicine Consumption System For Elders
 Module 2 - Spatio-Temporal Polychromatic Trajectory Based Elderly Exercise Evaluation System
 <img src='/images/exercise/methodology_overview.jpg' style='width: 750px;max-width:100%;margin-bottom:15px;display:block;'>
 <img src='/images/exercise/direction_demonstration.jpg' style='width: 350px;max-width:100%;margin-bottom:15px;display:block;'>
+<img src='/images/exercise/ex-gui-1.jpg' style='width: 480px;max-width:100%;margin-bottom:15px;display:block;'>
 
 Module 3 - Automated Table
 <img src='/images/table.jpg' style='width: 400px;max-width:100%;margin-bottom:15px;display:block;'>
