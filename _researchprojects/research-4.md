@@ -10,4 +10,4 @@ A complete saline monitoring and management system has been developed that enabl
 
 <img src='/images/saline/fullsystem.jpg' style='width: 480px;max-width:100%;margin-bottom:15px;'>
 <img src='/images/saline/fulldevice.jpg' style='width: 480px;max-width:100%;margin-bottom:15px;'>
-<img src='/images/saline/home.jpg' style='width: 480px;max-width:100%'>
+<img src='/images/saline/home.png' style='width: 480px;max-width:100%'>
