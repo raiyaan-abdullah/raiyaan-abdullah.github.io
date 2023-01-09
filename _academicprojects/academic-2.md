@@ -1,6 +1,6 @@
 ---
 title: "Self Solving 8-Puzzle"
-excerpt: "Supervisor: Dr. Sejuti Rahman, 2019"
+excerpt: "Supervisor: Dr. Sejuti Rahman, 2019<br/><img src='/images/eight_puzzle.png' style='width: 480px;max-width:100%'>"
 collection: academicprojects
 ---
 * Supervisor: Dr. Sejuti Rahman, 2019
