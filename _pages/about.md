@@ -15,7 +15,7 @@ Education
 
 Research Experience
 ======
-* UAV-Cop: An Airborne Traffic Accident Surveillance and Analysis Sytem
+* UAV-Cop: An Airborne Traffic Accident Surveillance and Analysis System
   * Research Assistant: 2022 - Present
   * Supervised by: Dr. Sejuti Rahman
 

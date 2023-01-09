@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Raiyaan Abdullah's Portfolio Website"
+title                    : "Raiyaan Abdullah's Portfolio"
 title_separator          : "-"
 name                     : &name "Raiyaan Abdullah"
 description              : &description "personal description"
@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Raiyaan Abdullah"
-  avatar           : "profile.png"
-  bio              : "Seeking for Ph.D. Degree"
+  avatar           : "raiyaan_photo.jpg"
+  bio              : "Ph.D. Candidate for Fall 2023"
   location         : "Dhaka, Bangladesh"
   employer         :
   pubmed           : 
