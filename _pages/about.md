@@ -36,7 +36,7 @@ Mentorship Experience
   * Mentor: 2019, 2021
   * Supervised by: Dr. Sejuti Rahman
   
-  International Robot Olympiad (IRO) is a prestigious olympiad in robotics participated by children aged 6-18 years worldwide. I had the opportunity to mentor the young talents from my country. My responsibilities involved overlooking their progress, assisting them with programming and hardware issues and teaching them to overcome critical challenges. In 2019, the 15-member team won a gold, two silver and six bronze medals with a technical award. In 2021, the 16-member team won four gold, two silver and five bronze medals with four technical awards.
+  International Robot Olympiad (IRO) is a prestigious olympiad in robotics participated by children aged 6-18 years worldwide. I had the opportunity to mentor the young talents from my country. My responsibilities involved overseeing their progress, assisting them with programming and hardware issues and teaching them to overcome critical challenges. In 2019, the 15-member team won a gold, two silver and six bronze medals with a technical award. In 2021, the 16-member team won four gold, two silver and five bronze medals with four technical awards.
 
 
 Publications
