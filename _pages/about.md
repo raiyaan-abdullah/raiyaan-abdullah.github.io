@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 Hello, I am Raiyaan Abdullah from Dhaka, Bangladesh. I am currently seeking Ph.D. admission for Fall 2023. My main research interests are in Artificial Intelligence and Computer Vision. I am curious about their applications in Activity Recognition, Video Understanding, Smart Health, and Medical Imaging. 
-======
 
 Education
 ======
