@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello, I am Raiyaan Abdullah from Dhaka, Bangladesh. I have completed my undergraduate degree in Robotics and Mechatronics Engineering. My main research interests are in Artificial Intelligence and Computer Vision. I am curious about their applications in Activity Recognition, Video Understanding, Smart Health, and Medical Imaging. Especially the introduction of vision transformers and their usage in supplanting traditional CNNs in various domains fascinate me.
+Welcome to my website. I am a PhD student at the University of Central Florida, where I have been conducting research since Fall 2023 under the supervision of Dr. Yogesh Singh Rawat. My work focuses on computer vision, with an emphasis on video understanding and action recognition. While models such as ChatGPT, Gemini, Claude and Grok have achieved remarkable success in text and image analysis, their performance on video tasks remains underexplored. My approach is to identify their failure cases, curate specialized datasets to evaluate the latest models and propose methods to improve their accuracy. I believe that advancing video understanding is essential as we move towards AGI.
 
 Education
 ======

@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Raiyaan Abdullah's Portfolio"
+title                    : "Raiyaan Abdullah"
 title_separator          : "-"
 name                     : &name "Raiyaan Abdullah"
 description              : &description "personal description"
@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Raiyaan Abdullah"
   avatar           : "raiyaan_photo.jpg"
-  bio              : "Seeking Ph.D. admission for Fall 2023"
-  location         : "Dhaka, Bangladesh"
+  bio              : "Seeking Summer Internship"
+  location         : "Oviedo, Florida, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=QA8alkEAAAAJ&hl=en"
   email            : "raiyaanabdullah@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Raiyaan-Abdullah"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -102,8 +102,8 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         :
-  orcid            : "https://orcid.org/0000-0002-7950-816X"
+  linkedin         : "raiyaan-abdullah/"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : 
