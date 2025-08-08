@@ -21,14 +21,13 @@ Workshop
 * iSafetyBench: A video-language benchmark for safety in industrial environment (ICCVW '25)
 * Probing conceptual understanding of large visual-language models (CVPRW '24)
 
-Skills
+<!-- Skills
 ======
-I primarily conduct my research in Python, leveraging PyTorch and other widely used libraries. I also have practical experience with graphic-design tools (Adobe Photoshop, Illustrator), video-editing applications, and web technologies (HTML, CSS, JavaScript).
+I primarily conduct my research in Python, leveraging PyTorch and other widely used libraries. I also have practical experience with graphic-design tools (Adobe Photoshop, Illustrator), video-editing applications, and web technologies (HTML, CSS, JavaScript). -->
 
 Fellowship
 ======
-* ORCGS Doctoral Fellowship (2023-2024)
-  Awarded to distinguished first year students enrolled in doctoral programs at the University of Central Florida.
+* ORCGS Doctoral Fellowship, UCF (2023-2024)
 
 Reviewing
 ======
