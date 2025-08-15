@@ -39,10 +39,10 @@ Scholarships and Grants
   Our undergraduate thesis project idea was granted a generous amount of fund by ICT Division, Government of Bangladesh.
 * **IFIC Bank Trust Fund Research Grant** (2019-2020)
   Granted to students of selected departments who excelled in academics and other qualities. 
-* **University Undergraduate Scholarship** (2017-2018, 2018-2019, 2019-2020)
-  Awarded to top two students of each batch in every department, enrolled in University of Dhaka. 
 * **Luna Shamsuddoha, Chairman, Janata Bank Limited Scholarship** (2018-2020)
   Awarded to top three students of each batch, enrolled in selected departments of University of Dhaka.
+* **University Undergraduate Scholarship** (2017-2018, 2018-2019, 2019-2020)
+  Awarded to top two students of each batch in every department, enrolled in University of Dhaka. 
 * **General Scholarship** (2016)
   Awarded for outstanding results in Higher Secondary Certificate exam.
 

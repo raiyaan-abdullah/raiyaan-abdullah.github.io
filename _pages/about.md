@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-* **Education**: PhD student (Fall 2023 - Present)  
+* **Education**: PhD student and Graduate Teaching/Research Assistant (Fall 2023 - Present)  
   Center for Research in Computer Vision (CRCV)  
   University of Central Florida (UCF)  
 * **Supervisor**: Dr. Yogesh Singh Rawat  
