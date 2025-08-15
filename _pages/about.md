@@ -24,7 +24,7 @@ Publications (Ph.D.)
 * [iSafetyBench: A Video-Language Benchmark for Safety in Industrial Environment](https://isafetybench.github.io/) (ICCVW '25)  
   **Raiyaan Abdullah**, Yogesh Singh Rawat, Shruti Vyas  
 * [Probing Conceptual Understanding of Large Visual-Language Models](https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Schiappa_Probing_Conceptual_Understanding_of_Large_Visual-Language_Models_CVPRW_2024_paper.pdf) (CVPRW '24)  
-  Madeline Schiappa, **Raiyaan Abdullah**, Shehreen Azad, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Rawat
+  Madeline Schiappa, **Raiyaan Abdullah**, Shehreen Azad, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat
 
 <!-- Skills
 ======
