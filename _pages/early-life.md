@@ -9,10 +9,11 @@ permalink: /early-life/
 Education
 ======
 I consider myself extremely fortunate to get the chance to study at some of the most prestigious institutions in Bangladesh at every level.
-* **Bachelor of Science**: University of Dhaka, Dhaka, Bangladesh. (2017-2022) **Delayed due to Covid-19*  
+* **Bachelor of Science**: [University of Dhaka](https://www.du.ac.bd/), Dhaka, Bangladesh. (2017-2022) **Delayed due to Covid-19*  
+  Major: [Robotics and Mechatronics Engineering](https://rme.du.ac.bd/)    
   Supervisor: [Dr. Lafifa Jamal](https://www.du.ac.bd/faculty/faculty_details/RME/1774)
-* **HSC (Grade 11-12)**: Notre Dame College, Dhaka, Bangladesh. (2014-2016)
-* **SSC (Grade 3-10)**: St Joseph Higher Secondary School, Dhaka, Bangladesh. (2006-2014)
+* **HSC (Grade 11-12)**: [Notre Dame College](https://ndc.edu.bd/), Dhaka, Bangladesh. (2014-2016)
+* **SSC (Grade 3-10)**: [St Joseph Higher Secondary School](https://sjs.edu.bd/new/index.php), Dhaka, Bangladesh. (2006-2014)
 
 Publications (Undergraduate)
 ======
