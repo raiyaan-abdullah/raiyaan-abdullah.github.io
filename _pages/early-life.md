@@ -29,7 +29,7 @@ Experience
 * **Co-Founder and Project Manager (Dev Team), [BiTechX](https://bitechx.com)** (2010-2023)  
   What started as a fun project in high school evolved into a full-fledged tech company. We focused on Web Development, Graphic Design, and Video Editing/Animations, working with 100+ clients in the US, Canada, and around the world.
 * **Research Assistant, UAV-Cop (under [Dr. Sejuti Rahman](https://www.du.ac.bd/faculty/faculty_details/RME/2150))** (2022-2023)  
-  Investigate applying few-shot learning to detect Bangladesh-specific vehicles such as rickshaw, CNG, leguna, manual van from drone footage and oversee traffic accidents in various metropolitans of Bangladesh.
+  Investigated the application of few-shot learning in detecting Bangladesh-specific vehicles such as rickshaw, CNG, leguna, manual van from drone footage and oversee traffic accidents in various metropolitans of Bangladesh.
 * **Mentor, International Robot Olympiad - [Bangladesh Team](https://bdro.org/results/2021-iro-result/)** (2019, 2021)  
   IRO is a prestigious olympiad in robotics participated by children aged 6-18 years worldwide. I had the opportunity to mentor the young talents from my country who went on to win various gold, silver, bronze accolades.
 
