@@ -17,11 +17,11 @@ redirect_from:
 
 Publications
 ======
-## **Main Track**
+### **Main Track**
 * [Punching Bag vs. Punching Person: Motion Transferability in Videos](https://raiyaan.xyz/Motion-Transfer-webpage/) (ICCV '25)  
   **Raiyaan Abdullah**, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat  
 
-## **Workshops**
+### **Workshops**
 * [iSafetyBench: A video-language benchmark for safety in industrial environment](https://isafetybench.github.io/) (ICCVW '25)  
   **Raiyaan Abdullah**, Yogesh Singh Rawat, Shruti Vyas  
 * [Probing conceptual understanding of large visual-language models](https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Schiappa_Probing_Conceptual_Understanding_of_Large_Visual-Language_Models_CVPRW_2024_paper.pdf) (CVPRW '24)  
