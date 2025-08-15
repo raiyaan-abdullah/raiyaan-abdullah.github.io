@@ -16,7 +16,7 @@ Recent Vision-Language Models (VLMs) have demonstrated remarkable capabilities i
 
 Publications (Ph.D.)
 ======
-**Main Track**
+**Main Proceedings**
 * [Punching Bag vs. Punching Person: Motion Transferability in Videos](https://raiyaan.xyz/Motion-Transfer-webpage/) (ICCV '25)  
   **Raiyaan Abdullah**, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat  
 
