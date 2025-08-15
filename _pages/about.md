@@ -39,6 +39,7 @@ Reviewer experience
 ======
 **Direct assignment**
 * CVPR '25  
+
 **Part of CRCV**
 * CVPR '24
 * ICCV '25
