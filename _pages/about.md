@@ -7,13 +7,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Recent Vision-Language Models (VLMs) have demonstrated remarkable capabilities in text and image analysis (like ChatGPT, Gemini, Claude, Grok, Qwen, InternVL, etc.), but they still face significant challenges in processing and understanding video data, regardless of their scale. I focus on identifying failure cases, curating specialized datasets to evaluate these models, and proposing methods to boost accuracy. Advancing video understanding is critical for achieving AGI.
 * **Education**: Ph.D. student and Graduate Teaching/Research Assistant (Fall 2023 - Present)  
   Center for Research in Computer Vision (CRCV)  
   University of Central Florida (UCF)  
 * **Supervisor**: Dr. Yogesh Singh Rawat  
 * **Research focus**: Computer Vision, Video Understanding, Action Recognition, Datasets  
-
-  While vision-language models (VLMs) have demonstrated remarkable capabilities in text and image analysis (like ChatGPT, Gemini, Claude, Grok, Qwen, InternVL, etc.,), they still face significant challenges in processing and understanding video data, regardless of their scale. I focus on identifying failure cases, curating specialized datasets to evaluate these models, and proposing methods to boost accuracy. Advancing video understanding is critical for achieving AGI.
 
 Publications (Ph.D.)
 ======
