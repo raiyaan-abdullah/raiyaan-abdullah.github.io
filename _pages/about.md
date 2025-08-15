@@ -11,7 +11,7 @@ Recent Vision-Language Models (VLMs) have demonstrated remarkable capabilities i
 * **Education**: Ph.D. student and Graduate Teaching/Research Assistant (Fall 2023 - Present)  
   [Center for Research in Computer Vision (CRCV)](https://www.crcv.ucf.edu/)  
   [University of Central Florida (UCF)](https://www.ucf.edu/)  
-* **Supervisor**: Dr. Yogesh Singh Rawat  
+* **Supervisor**: [Dr. Yogesh Singh Rawat](https://www.crcv.ucf.edu/person/rawat/)  
 * **Research focus**: Computer Vision, Video Understanding, Action Recognition, Datasets  
 
 Publications (Ph.D.)
