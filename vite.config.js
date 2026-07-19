@@ -1,6 +1,7 @@
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
-import { siteMeta } from "./src/content/site.js";
+import { fileURLToPath } from "node:url";
+import { siteMeta } from "./src/content/portfolio.js";
 
 const siteMetaPlugin = {
   name: "site-meta",
@@ -30,7 +31,15 @@ function escapeHtml(value) {
 
 export default defineConfig({
   base: getBasePath(),
-  plugins: [react(), siteMetaPlugin]
+  plugins: [react(), siteMetaPlugin],
+  build: {
+    rollupOptions: {
+      input: {
+        main: fileURLToPath(new URL("index.html", import.meta.url)),
+        earlyLife: fileURLToPath(new URL("early-life/index.html", import.meta.url))
+      }
+    }
+  }
 });
 
 function getBasePath() {

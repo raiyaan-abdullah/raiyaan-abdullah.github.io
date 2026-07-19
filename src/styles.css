@@ -745,6 +745,41 @@ a:focus-visible {
   margin: 0 0 14px;
 }
 
+.intro-copy .action-links {
+  margin-top: 18px;
+}
+
+.page-introduction {
+  padding-top: 42px;
+  padding-bottom: 18px;
+}
+
+.page-introduction .eyebrow {
+  margin: 0 0 8px;
+  color: var(--blue);
+  font-size: 0.76rem;
+  font-weight: 620;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.page-introduction h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  color: var(--ink);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 580;
+  line-height: 1.08;
+}
+
+.page-introduction > p:last-child {
+  max-width: 760px;
+  margin: 14px 0 0;
+  color: var(--body-copy);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
 .focus-row {
   display: flex;
   flex-wrap: wrap;
