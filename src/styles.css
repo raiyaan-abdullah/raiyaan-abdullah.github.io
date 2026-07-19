@@ -187,12 +187,44 @@
   --fa: "\f02d";
 }
 
+.fa-book-open {
+  --fa: "\f518";
+}
+
+.fa-award {
+  --fa: "\f559";
+}
+
+.fa-briefcase {
+  --fa: "\f0b1";
+}
+
+.fa-building-columns {
+  --fa: "\f19c";
+}
+
+.fa-circle {
+  --fa: "\f111";
+}
+
+.fa-clipboard-check {
+  --fa: "\f46c";
+}
+
 .fa-chalkboard {
   --fa: "\f51b";
 }
 
 .fa-location-dot {
   --fa: "\f3c5";
+}
+
+.fa-graduation-cap {
+  --fa: "\f19d";
+}
+
+.fa-hand-holding-dollar {
+  --fa: "\f4c0";
 }
 
 .fa-download {
@@ -227,6 +259,14 @@
   --fa: "\f005";
 }
 
+.fa-trophy {
+  --fa: "\f091";
+}
+
+.fa-user {
+  --fa: "\f007";
+}
+
 .fa-sun {
   --fa: "\f185";
 }
@@ -245,6 +285,10 @@
 
 .fa-linkedin-in {
   --fa: "\f0e1";
+}
+
+.fa-linkedin {
+  --fa: "\f08c";
 }
 
 .fa-weixin {

@@ -31,7 +31,7 @@ export const profile = {
   ],
   links: [
     { label: "Email", href: "mailto:raiyaanabdullah@gmail.com", icon: "fa-solid fa-envelope" },
-    { label: "Google Scholar", href: "https://scholar.google.com/citations?user=QA8alkEAAAAJ&hl=en", icon: "ai ai-google-scholar" },
+    { label: "Google Scholar", href: "https://scholar.google.com/citations?user=QA8alkEAAAAJ&hl=en", icon: "fa-solid fa-graduation-cap" },
     { label: "GitHub", href: "https://github.com/raiyaan-abdullah", icon: "fa-brands fa-github" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/raiyaan-abdullah/", icon: "fa-brands fa-linkedin" }
   ]
