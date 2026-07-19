@@ -54,6 +54,7 @@ export const sectionIconMap = {
   Metrics: barChartIcon,
   News: newspaperIcon,
   Publications: booksIcon,
+  "Undergraduate Publications": booksIcon,
   Projects: lightBulbIcon,
   Teaching: schoolIcon,
   Talks: speechBalloonIcon,
@@ -61,8 +62,10 @@ export const sectionIconMap = {
   Experience: briefcaseIcon,
   Awards: trophyIcon,
   Honors: trophyIcon,
+  "Scholarships and Grants": memoIcon,
   "Academic Service": clipboardIcon,
-  Service: clipboardIcon
+  Service: clipboardIcon,
+  "Reviewer Experience": clipboardIcon
 };
 
 export const publicationGroupIconMap = {

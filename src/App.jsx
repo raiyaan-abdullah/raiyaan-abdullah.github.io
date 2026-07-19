@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { Icon } from "@iconify/react";
 import {
   currentAwards,
   currentEducation,
@@ -12,6 +13,7 @@ import {
   reviewerService,
   siteMeta
 } from "./content/portfolio.js";
+import { fallbackTitleIcon, sectionIconMap } from "./icons.js";
 
 const baseUrl = import.meta.env.BASE_URL;
 
@@ -121,7 +123,7 @@ function HomePage() {
         <ItemList items={currentAwards} />
       </ContentSection>
       <ContentSection id="service" title="Reviewer Experience">
-        <GroupedItems groups={reviewerService} />
+        <GroupedItems groups={reviewerService} icon={sectionIconMap["Reviewer Experience"]} />
       </ContentSection>
     </>
   );
@@ -148,7 +150,7 @@ function EarlyLifePage() {
         <Timeline items={earlyGrants} />
       </ContentSection>
       <ContentSection id="awards" title="Awards">
-        <GroupedItems groups={earlyAwards} />
+        <GroupedItems groups={earlyAwards} icon={sectionIconMap.Awards} />
       </ContentSection>
     </>
   );
@@ -190,7 +192,7 @@ function ContentSection({ id, title, children }) {
   return (
     <section className={`section${id === "about" ? " about-section" : ""}`} id={id}>
       <div className="section-title">
-        <h2><span className="title-icon" aria-hidden="true"><i className={sectionIcon(id)} /></span>{title}</h2>
+        <h2><span className="title-icon" aria-hidden="true"><Icon className="semantic-icon" icon={sectionIconMap[title] ?? fallbackTitleIcon} /></span>{title}</h2>
       </div>
       {children}
     </section>
@@ -201,7 +203,7 @@ function PublicationGroups({ publications }) {
   const groups = [...new Set(publications.map((publication) => publication.group))];
   return groups.map((group) => (
     <section className="publication-group" key={group}>
-      <h3><span className="title-icon title-icon-compact" aria-hidden="true"><i className="fa-solid fa-book-open" /></span>{group}</h3>
+      <h3><span className="title-icon title-icon-compact" aria-hidden="true"><Icon className="semantic-icon" icon={fallbackTitleIcon} /></span>{group}</h3>
       <div className="highlight-list">
         {publications.filter((publication) => publication.group === group).map((publication) => (
           <PublicationCard key={publication.title} publication={publication} />
@@ -255,12 +257,12 @@ function ItemList({ items }) {
   return <div className="honor-list">{items.map((item) => <div className="honor-row" key={item.text}><span>{item.text}</span><time>{item.year}</time></div>)}</div>;
 }
 
-function GroupedItems({ groups }) {
+function GroupedItems({ groups, icon = fallbackTitleIcon }) {
   return (
     <div className="service-groups">
       {groups.map((group) => (
         <section className="service-group" key={group.category}>
-          <h3><span className="title-icon" aria-hidden="true"><i className="fa-solid fa-award" /></span>{group.category}</h3>
+          <h3><span className="title-icon" aria-hidden="true"><Icon className="semantic-icon" icon={icon} /></span>{group.category}</h3>
           <div className="service-chip-grid">
             {group.items.map((item) => <span className="service-chip" key={item}>{item}</span>)}
           </div>
@@ -285,18 +287,6 @@ function highlightName(authors) {
 
 function sectionLabel(section) {
   return section === "service" ? "Reviewing" : section.replace(/(^|-)\w/g, (value) => value.toUpperCase());
-}
-
-function sectionIcon(section) {
-  return {
-    about: "fa-solid fa-user",
-    publications: "fa-solid fa-book-open",
-    education: "fa-solid fa-graduation-cap",
-    experience: "fa-solid fa-briefcase",
-    grants: "fa-solid fa-hand-holding-dollar",
-    awards: "fa-solid fa-trophy",
-    service: "fa-solid fa-clipboard-check"
-  }[section] ?? "fa-solid fa-circle";
 }
 
 function getInitialTheme() {
