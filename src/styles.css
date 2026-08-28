@@ -715,24 +715,30 @@ a:focus-visible {
 }
 
 .profile-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  display: grid;
+  gap: 7px;
   margin-top: 18px;
 }
 
 .profile-links a {
-  display: inline-grid;
-  width: 35px;
-  height: 35px;
-  place-items: center;
+  display: inline-flex;
+  width: 100%;
+  min-height: 36px;
+  align-items: center;
+  gap: 9px;
   border: 1px solid var(--border);
-  border-radius: 50%;
+  border-radius: 6px;
   background: var(--control-bg);
   color: var(--icon-text);
-  font-size: 1.06rem;
+  font-size: 0.82rem;
   line-height: 1;
+  padding: 8px 10px;
+}
+
+.profile-links a i {
+  width: 18px;
+  color: var(--blue);
+  font-size: 1rem;
 }
 
 .profile-links a:hover {
@@ -776,13 +782,10 @@ a:focus-visible {
 
 .intro-copy {
   max-width: 880px;
-  border-left: 3px solid var(--blue-bright);
-  border-radius: 0 var(--radius) var(--radius) 0;
-  background: linear-gradient(90deg, var(--blue-soft), transparent 72%);
   color: var(--body-copy);
   font-size: 0.94rem;
   line-height: 1.72;
-  padding: 18px 22px;
+  padding: 0;
 }
 
 .intro-copy p {

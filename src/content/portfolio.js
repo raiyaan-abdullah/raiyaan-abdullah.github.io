@@ -39,28 +39,31 @@ export const profile = {
 
 export const currentPublications = [
   {
-    group: "Main Proceedings",
     title: "Punching Bag vs. Punching Person: Motion Transferability in Videos",
     venue: "ICCV 2025",
     year: "2025",
     authors: "Raiyaan Abdullah, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat",
-    href: "https://raiyaan.xyz/Motion-Transfer-webpage/"
+    image: "images/exercise/direction_demonstration.jpg",
+    publicationHref: "https://openaccess.thecvf.com/content/ICCV2025/papers/Abdullah_Punching_Bag_vs._Punching_Person_Motion_Transferability_in_Videos_ICCV_2025_paper.pdf",
+    projectHref: "https://raiyaan.xyz/Motion-Transfer-webpage/"
   },
   {
-    group: "Workshops",
     title: "iSafetyBench: A Video-Language Benchmark for Safety in Industrial Environment",
     venue: "ICCVW 2025",
     year: "2025",
     authors: "Raiyaan Abdullah, Yogesh Singh Rawat, Shruti Vyas",
-    href: "https://isafetybench.github.io/"
+    image: "images/saline/fullsystem.jpg",
+    publicationHref: "https://openaccess.thecvf.com/content/ICCV2025W/VISION%2725/papers/Abdullah_iSafetyBench_A_video-language_benchmark_for_safety_in_industrial_environment_ICCVW_2025_paper.pdf",
+    projectHref: "https://isafetybench.github.io/"
   },
   {
-    group: "Workshops",
     title: "Probing Conceptual Understanding of Large Visual-Language Models",
     venue: "CVPRW 2024",
     year: "2024",
     authors: "Madeline Schiappa, Raiyaan Abdullah, Shehreen Azad, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat",
-    href: "https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Schiappa_Probing_Conceptual_Understanding_of_Large_Visual-Language_Models_CVPRW_2024_paper.pdf"
+    image: "images/handwriting/b-landmarks.jpg",
+    publicationHref: "https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Schiappa_Probing_Conceptual_Understanding_of_Large_Visual-Language_Models_CVPRW_2024_paper.pdf",
+    projectHref: "https://tinyurl.com/vlm-robustness"
   }
 ];
 
@@ -75,8 +78,8 @@ export const currentEducation = [{
 export const currentAwards = [{ text: "ORCGS Doctoral Fellowship, UCF", year: "2023–2024" }];
 
 export const reviewerService = [
-  { category: "Direct Assignment", items: ["CVPR ’25, ’26"] },
-  { category: "As Part of CRCV", items: ["CVPR ’24", "ICCV ’25", "ICLR ’25", "ICML ’24", "NeurIPS ’24, ’25"] }
+  { category: "Direct Assignment", items: ["CVPR"] },
+  { category: "As Part of CRCV", items: ["CVPR", "ICCV", "ICLR", "ICML", "NeurIPS"] }
 ];
 
 export const earlyEducation = [
@@ -93,30 +96,28 @@ export const earlyEducation = [
 
 export const earlyPublications = [
   {
-    group: "Undergraduate Research",
     title: "STPT: Spatio-Temporal Polychromatic Trajectory Based Elderly Exercise Evaluation System",
     venue: "IEEE Access",
     year: "2023",
     authors: "Riad Ahmed, Raiyaan Abdullah, Lafifa Jamal",
     image: "images/exercise/methodology_overview.jpg",
-    href: "https://ieeexplore.ieee.org/abstract/document/10098793"
+    publicationHref: "https://ieeexplore.ieee.org/abstract/document/10098793"
   },
   {
-    group: "Undergraduate Research",
     title: "A Novel IoT-Based Medicine Consumption System for Elders",
     venue: "SN Computer Science",
     year: "2022",
     authors: "Raiyaan Abdullah, Riad Ahmed, Lafifa Jamal",
     image: "images/medicine/algorithm_workflow.png",
-    href: "https://link.springer.com/article/10.1007/s42979-022-01367-8"
+    publicationHref: "https://link.springer.com/article/10.1007/s42979-022-01367-8"
   },
   {
-    group: "Undergraduate Research",
     title: "Pathfinder: A Fog Assisted Vision-Based System for Optimal Path Selection of Service Robots",
     venue: "ICIEV and icIVPR 2020",
     year: "2020",
     authors: "Niloy Irtisam, Riad Ahmed, Mohammad Moniruzzaman Akash, Raiyaan Abdullah, Sujan Sarker, Sejuti Rahman, Lafifa Jamal",
-    href: "https://ieeexplore.ieee.org/document/9306573"
+    image: "images/eight_puzzle.png",
+    publicationHref: "https://ieeexplore.ieee.org/document/9306573"
   }
 ];
 

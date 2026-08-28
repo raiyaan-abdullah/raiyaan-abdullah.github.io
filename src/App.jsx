@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { Icon } from "@iconify/react";
 import {
   currentAwards,
@@ -20,14 +20,11 @@ const baseUrl = import.meta.env.BASE_URL;
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [theme, setTheme] = useState(getInitialTheme);
-  const earlyLife = useMemo(() => /\/early-life\/?$/.test(window.location.pathname), []);
-  const sections = earlyLife
-    ? ["education", "publications", "experience", "grants", "awards"]
-    : ["about", "publications", "education", "awards", "service"];
+  const sections = ["publications", "education", "experience", "awards", "service"];
 
   useEffect(() => {
-    document.title = earlyLife ? `Early Life | ${profile.name}` : siteMeta.title;
-  }, [earlyLife]);
+    document.title = siteMeta.title;
+  }, []);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
@@ -50,9 +47,6 @@ function App() {
               {sectionLabel(section)}
             </a>
           ))}
-          {!earlyLife ? (
-            <a href={`${baseUrl}early-life/`} onClick={() => setMenuOpen(false)}>Early Life</a>
-          ) : null}
         </nav>
 
         <div className="header-actions">
@@ -82,7 +76,7 @@ function App() {
           <SidebarProfile />
         </aside>
         <main className="content-main" id="main-content">
-          {earlyLife ? <EarlyLifePage /> : <HomePage />}
+          <HomePage />
         </main>
       </div>
 
@@ -91,7 +85,6 @@ function App() {
           <span>© {new Date().getFullYear()} {profile.name}</span>
           <div className="footer-links">
             <a href={baseUrl}>Home</a>
-            <a href={`${baseUrl}early-life/`}>Early Life</a>
             <a href={`mailto:${profile.email}`}>{profile.email}</a>
           </div>
         </div>
@@ -101,9 +94,17 @@ function App() {
 }
 
 function HomePage() {
+  const publications = [...currentPublications, ...earlyPublications];
+  const education = [...currentEducation, ...earlyEducation];
+  const awardsAndGrants = [
+    ...currentAwards.map((item) => ({ period: item.year, title: item.text })),
+    ...earlyGrants,
+    ...earlyAwards.flatMap((group) => group.items.map((item) => ({ title: item, detail: group.category })))
+  ];
+
   return (
     <>
-      <ContentSection id="about" title="About">
+      <section className="section about-section" aria-label="Introduction">
         <div className="intro-copy">
           {profile.about.map((paragraph, index) => <p key={index}>{renderRichText(paragraph)}</p>)}
           <div className="action-links">
@@ -112,45 +113,21 @@ function HomePage() {
             </a>
           </div>
         </div>
-      </ContentSection>
-      <ContentSection id="publications" title="Publications">
-        <PublicationGroups publications={currentPublications} />
-      </ContentSection>
-      <ContentSection id="education" title="Education">
-        <Timeline items={currentEducation} />
-      </ContentSection>
-      <ContentSection id="awards" title="Awards">
-        <ItemList items={currentAwards} />
-      </ContentSection>
-      <ContentSection id="service" title="Reviewer Experience">
-        <GroupedItems groups={reviewerService} icon={sectionIconMap["Reviewer Experience"]} />
-      </ContentSection>
-    </>
-  );
-}
-
-function EarlyLifePage() {
-  return (
-    <>
-      <section className="section page-introduction">
-        <p className="eyebrow">Background</p>
-        <h1>Early Life</h1>
-        <p>I consider myself extremely fortunate to have had the chance to study at some of the most prestigious institutions in Bangladesh at every level.</p>
       </section>
-      <ContentSection id="education" title="Education">
-        <Timeline items={earlyEducation} />
+      <ContentSection id="publications" title="Publications">
+        <PublicationList publications={publications} />
       </ContentSection>
-      <ContentSection id="publications" title="Undergraduate Publications">
-        <PublicationGroups publications={earlyPublications} />
+      <ContentSection id="education" title="Education">
+        <Timeline items={education} />
       </ContentSection>
       <ContentSection id="experience" title="Experience">
         <Timeline items={earlyExperience} />
       </ContentSection>
-      <ContentSection id="grants" title="Scholarships and Grants">
-        <Timeline items={earlyGrants} />
-      </ContentSection>
       <ContentSection id="awards" title="Awards">
-        <GroupedItems groups={earlyAwards} icon={sectionIconMap.Awards} />
+        <Timeline items={awardsAndGrants} />
+      </ContentSection>
+      <ContentSection id="service" title="Reviewer Experience">
+        <GroupedItems groups={reviewerService} icon={sectionIconMap["Reviewer Experience"]} />
       </ContentSection>
     </>
   );
@@ -173,16 +150,11 @@ function SidebarProfile() {
       </div>
       <div className="profile-links">
         {profile.links.map((link) => (
-          <a key={link.label} href={link.href} target="_blank" rel="noreferrer" aria-label={link.label} title={link.label}>
+          <a key={link.label} href={link.href} target={link.href.startsWith("mailto:") ? undefined : "_blank"} rel={link.href.startsWith("mailto:") ? undefined : "noreferrer"}>
             <i className={link.icon} aria-hidden="true" />
+            <span>{link.label}</span>
           </a>
         ))}
-      </div>
-      <div className="sidebar-block">
-        <h2>Research Focus</h2>
-        <div className="focus-row">
-          {profile.focus.map((item) => <span key={item}>{item}</span>)}
-        </div>
       </div>
     </div>
   );
@@ -199,18 +171,14 @@ function ContentSection({ id, title, children }) {
   );
 }
 
-function PublicationGroups({ publications }) {
-  const groups = [...new Set(publications.map((publication) => publication.group))];
-  return groups.map((group) => (
-    <section className="publication-group" key={group}>
-      <h3><span className="title-icon title-icon-compact" aria-hidden="true"><Icon className="semantic-icon" icon={fallbackTitleIcon} /></span>{group}</h3>
-      <div className="highlight-list">
-        {publications.filter((publication) => publication.group === group).map((publication) => (
-          <PublicationCard key={publication.title} publication={publication} />
-        ))}
-      </div>
-    </section>
-  ));
+function PublicationList({ publications }) {
+  return (
+    <div className="highlight-list">
+      {publications.map((publication) => (
+        <PublicationCard key={publication.title} publication={publication} />
+      ))}
+    </div>
+  );
 }
 
 function PublicationCard({ publication }) {
@@ -229,7 +197,8 @@ function PublicationCard({ publication }) {
         <p className="authors">{highlightName(publication.authors)}</p>
         {publication.summary ? <p>{publication.summary}</p> : null}
         <div className="action-links">
-          <a href={publication.href} target="_blank" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" /> View publication</a>
+          <a href={publication.publicationHref} target="_blank" rel="noreferrer"><i className="fa-solid fa-file-lines" aria-hidden="true" /> View publication</a>
+          {publication.projectHref ? <a href={publication.projectHref} target="_blank" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" /> View project page</a> : null}
         </div>
       </div>
     </article>
@@ -251,10 +220,6 @@ function Timeline({ items }) {
       ))}
     </div>
   );
-}
-
-function ItemList({ items }) {
-  return <div className="honor-list">{items.map((item) => <div className="honor-row" key={item.text}><span>{item.text}</span><time>{item.year}</time></div>)}</div>;
 }
 
 function GroupedItems({ groups, icon = fallbackTitleIcon }) {
@@ -286,7 +251,8 @@ function highlightName(authors) {
 }
 
 function sectionLabel(section) {
-  return section === "service" ? "Reviewing" : section.replace(/(^|-)\w/g, (value) => value.toUpperCase());
+  if (section === "service") return "Reviewer Experience";
+  return section.replace(/(^|-)\w/g, (value) => value.toUpperCase());
 }
 
 function getInitialTheme() {
