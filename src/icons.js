@@ -65,8 +65,7 @@ export const sectionIconMap = {
   "Scholarships and Grants": memoIcon,
   "Academic Service": clipboardIcon,
   Service: clipboardIcon,
-  "Reviewer Experience": clipboardIcon,
-  "Voluntary Opportunities": clipboardIcon
+  "Reviewer Experience": clipboardIcon
 };
 
 export const publicationGroupIconMap = {

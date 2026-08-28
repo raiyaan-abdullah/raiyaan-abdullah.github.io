@@ -121,8 +121,8 @@ export const publications = [
 
 export const education = [
   {
-    period: "Fall 2023 – Present",
-    title: "Ph.D. Student and Graduate Teaching/Research Assistant",
+    period: "Fall 2023 – Ongoing",
+    title: "Ph.D. in Computer Science",
     place: "Institute of Artificial Intelligence, University of Central Florida",
     href: "https://www.ucf.edu/institute-of-artificial-intelligence/",
     detail: ["Supervisor: ", { text: "Dr. Yogesh Singh Rawat", href: "https://www.crcv.ucf.edu/person/rawat/" }, "."]
@@ -138,7 +138,7 @@ export const education = [
   { period: "2006 – 2014", title: "Secondary School Certificate (Grades 3–10)", place: "St. Joseph Higher Secondary School, Dhaka, Bangladesh", href: "https://sjs.edu.bd/new/index.php" }
 ];
 
-export const voluntaryOpportunities = {
+export const service = {
   reviewer: [
     "ICLR '24, '25, '26",
     "CVPR '24, '25, '26",
@@ -160,18 +160,40 @@ export const voluntaryOpportunities = {
 
 export const experience = [
   {
-    period: "2010 – 2023",
-    title: "Co-Founder and Project Manager, Development Team",
-    place: "BiTechX",
-    href: "https://bitechx.com",
-    detail: "What started as a fun project in high school evolved into a full-fledged tech company focused on web development, graphic design, and video editing/animation, serving more than 100 clients worldwide."
+    period: "Aug. 2024 – Present",
+    title: "Graduate Teaching and Research Assistant",
+    place: "University of Central Florida",
+    href: "https://www.ucf.edu/",
+    location: "Orlando, FL, USA",
+    details: [
+      "Conducting research on Action Recognition and Video Understanding at the Institute of Artificial Intelligence, UCF.",
+      "Leading weekly Python programming labs (COP 2500) for 150+ students, with an average section size of 25, many of whom are first-time programmers.",
+      "Grading approximately 250 lab and programming submissions per week, providing feedback on code logic and structure."
+    ]
   },
   {
-    period: "2022 – 2023",
-    title: "Research Assistant, UAV-Cop",
-    place: "Under Dr. Sejuti Rahman",
+    period: "Sep. 2018 – Jul. 2023",
+    title: "Co-founder and Dev. Project Manager",
+    place: "BiTechX",
+    href: "https://bitechx.com",
+    location: "Dhaka, Bangladesh",
+    details: [
+      "Established a client-focused technology firm delivering web development, graphic design, and video editing solutions for both small and established businesses.",
+      "Directed end-to-end project delivery for 100+ clients across the US, Canada, and other international markets.",
+      "Managed a cross-functional team of up to 5 developers and UX designers, defining quality standards and delivery timelines while serving as the primary technical liaison to clients.",
+      "Increased company revenue by 6.5× over my tenure."
+    ]
+  },
+  {
+    period: "Apr. 2022 – Jul. 2023",
+    title: "Research Assistant",
+    place: "Dr. Sejuti Rahman's Group",
     href: "https://www.du.ac.bd/faculty/faculty_details/RME/2150",
-    detail: "Investigated few-shot learning for detecting Bangladesh-specific vehicles from drone footage and monitoring traffic accidents in metropolitan areas."
+    location: "Dhaka, Bangladesh",
+    details: [
+      "Collected and annotated UAV video data featuring Bangladesh-specific vehicles (rickshaw, CNG, leguna, and manual van) in Dhaka.",
+      "Investigated few-shot learning for detecting underrepresented vehicle classes in airborne traffic surveillance and accident analysis."
+    ]
   }
 ];
 
@@ -179,12 +201,12 @@ export const awards = [
   { period: "2023–2024", title: "ORCGS Doctoral Fellowship, UCF" },
   { period: "2020–2021", title: "Special Grant in Research", detail: "Undergraduate thesis project funding from the ICT Division, Government of Bangladesh." },
   { period: "2019–2020", title: "IFIC Bank Trust Fund Research Grant", detail: "Awarded to students in selected departments who excelled in academics and other qualities." },
-  { period: "Jan. 2019", title: "2nd — AUST Mindsparks, Ahsanullah University of Science and Technology", detail: "Line Follower Robot Competition" },
+  { period: "Jan. 2019", title: "2nd - AUST Mindsparks, Ahsanullah University of Science and Technology", detail: "Line Follower Robot Competition" },
   { period: "2018–2020", title: "Luna Shamsuddoha, Chairman, Janata Bank Limited Scholarship", detail: "Awarded to the top three students of each batch in selected University of Dhaka departments." },
-  { period: "July 2018", title: "3rd — BUET EEE Day Robofiesta, Bangladesh University of Engineering and Technology", detail: "Line Follower Robot Competition" },
-  { period: "June 2018", title: "2nd — AUST Developer Hunt, university website redesign competition", detail: "Web Development Competition" },
+  { period: "July 2018", title: "3rd - BUET EEE Day Robofiesta, Bangladesh University of Engineering and Technology", detail: "Line Follower Robot Competition" },
+  { period: "June 2018", title: "2nd - AUST Developer Hunt, university website redesign competition", detail: "Web Development Competition" },
   { period: "2017–2020", title: "University Undergraduate Scholarship", detail: "Awarded to the top two students of each batch in every University of Dhaka department." },
   { period: "Oct. 2017", title: "Champion — IntraDU Robofest, University of Dhaka", detail: "Line Follower Robot Competition" },
-  { period: "July 2017", title: "3rd — DUET Techfest, Dhaka University of Engineering and Technology", detail: "Line Follower Robot Competition" },
+  { period: "July 2017", title: "3rd - DUET Techfest, Dhaka University of Engineering and Technology", detail: "Line Follower Robot Competition" },
   { period: "2016", title: "General Scholarship", detail: "Awarded for outstanding results in the Higher Secondary Certificate examination." }
 ];

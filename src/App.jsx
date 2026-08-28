@@ -6,8 +6,8 @@ import {
   experience,
   profile,
   publications,
-  siteMeta,
-  voluntaryOpportunities
+  service,
+  siteMeta
 } from "./content/portfolio.js";
 import { fallbackTitleIcon, sectionIconMap } from "./icons.js";
 
@@ -16,7 +16,7 @@ const baseUrl = import.meta.env.BASE_URL;
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [theme, setTheme] = useState(getInitialTheme);
-  const sections = ["publications", "education", "experience", "awards", "voluntary-opportunities"];
+  const sections = ["publications", "education", "experience", "awards", "service"];
 
   useEffect(() => {
     document.title = siteMeta.title;
@@ -115,8 +115,8 @@ function HomePage() {
       <ContentSection id="awards" title="Awards">
         <Timeline items={awards} />
       </ContentSection>
-      <ContentSection id="voluntary-opportunities" title="Voluntary Opportunities">
-        <VoluntaryOpportunities data={voluntaryOpportunities} />
+      <ContentSection id="service" title="Service">
+        <Service data={service} />
       </ContentSection>
     </>
   );
@@ -202,7 +202,9 @@ function Timeline({ items }) {
           <div className="timeline-main">
             <strong>{item.title}</strong>
             {item.place ? item.href ? <a className="timeline-place" href={item.href} target="_blank" rel="noreferrer">{item.place}</a> : <span className="timeline-place">{item.place}</span> : null}
+            {item.location ? <span className="timeline-location">{item.location}</span> : null}
             {item.detail ? <p>{renderRichText(item.detail)}</p> : null}
+            {item.details ? <ul className="timeline-details">{item.details.map((detail) => <li key={detail}>{renderRichText(detail)}</li>)}</ul> : null}
           </div>
           {item.period ? <time>{item.period}</time> : null}
         </article>
@@ -211,9 +213,9 @@ function Timeline({ items }) {
   );
 }
 
-function VoluntaryOpportunities({ data }) {
+function Service({ data }) {
   return (
-    <div className="voluntary-content">
+    <div className="service-content">
       <div className="reviewer-block">
         <h3>Reviewer</h3>
         <p>Served as a reviewer for:</p>
