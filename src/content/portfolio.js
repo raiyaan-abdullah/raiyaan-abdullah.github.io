@@ -34,7 +34,7 @@ export const profile = {
     ],
 
     [
-      "I am a Ph.D. student and Graduate Teaching/Research Assistant at the ",
+      "I am currently enrolled at the ",
       {
         text: "Institute of Artificial Intelligence",
         href: "https://www.ucf.edu/institute-of-artificial-intelligence/"
