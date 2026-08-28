@@ -1697,6 +1697,32 @@ a.timeline-place:hover {
   gap: 7px;
 }
 
+.voluntary-content {
+  display: grid;
+  gap: 24px;
+}
+
+.reviewer-block h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 560;
+}
+
+.reviewer-block p {
+  margin: 4px 0 10px;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.service-chip.reviewer-badge {
+  border-color: var(--title-icon-border);
+  background: var(--blue-soft);
+  color: var(--blue);
+  font-weight: 540;
+}
+
 .service-chip {
   display: inline-flex;
   align-items: baseline;

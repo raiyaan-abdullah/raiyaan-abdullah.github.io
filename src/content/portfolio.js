@@ -138,23 +138,25 @@ export const education = [
   { period: "2006 – 2014", title: "Secondary School Certificate (Grades 3–10)", place: "St. Joseph Higher Secondary School, Dhaka, Bangladesh", href: "https://sjs.edu.bd/new/index.php" }
 ];
 
-export const voluntaryOpportunities = [
-  {
+export const voluntaryOpportunities = {
+  reviewer: [
+    "ICLR '24, '25, '26",
+    "CVPR '24, '25, '26",
+    "ICML '24",
+    "NeurIPS '24, '25, '26",
+    "ICCV '25",
+    "ECCV '26",
+    "Pattern Recognition '26",
+    "BMVC '26",
+    "IEEE Transactions on Multimedia '26"
+  ],
+  mentorship: {
     title: "Mentor, International Robot Olympiad '19, '21",
     place: "Bangladesh Team",
     href: "https://bdro.org/results/2021-iro-result/",
     detail: "Mentored young robotics competitors who went on to win gold, silver, and bronze accolades."
-  },
-  { title: "ICLR '24, '25, '26" },
-  { title: "CVPR '24, '25, '26" },
-  { title: "ICML '24" },
-  { title: "NeurIPS '24, '25, '26" },
-  { title: "ICCV '25" },
-  { title: "ECCV '26" },
-  { title: "Pattern Recognition '26" },
-  { title: "BMVC '26" },
-  { title: "IEEE Transactions on Multimedia '26" }
-];
+  }
+};
 
 export const experience = [
   {

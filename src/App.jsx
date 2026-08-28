@@ -116,7 +116,7 @@ function HomePage() {
         <Timeline items={awards} />
       </ContentSection>
       <ContentSection id="voluntary-opportunities" title="Voluntary Opportunities">
-        <Timeline items={voluntaryOpportunities} />
+        <VoluntaryOpportunities data={voluntaryOpportunities} />
       </ContentSection>
     </>
   );
@@ -211,11 +211,32 @@ function Timeline({ items }) {
   );
 }
 
+function VoluntaryOpportunities({ data }) {
+  return (
+    <div className="voluntary-content">
+      <div className="reviewer-block">
+        <h3>Reviewer</h3>
+        <p>Served as a reviewer for:</p>
+        <div className="service-chip-grid">
+          {data.reviewer.map((item) => <span className="service-chip reviewer-badge" key={item}>{item}</span>)}
+        </div>
+      </div>
+      <Timeline items={[data.mentorship]} />
+    </div>
+  );
+}
+
 function renderRichText(value) {
   if (!Array.isArray(value)) return value;
-  return value.map((part, index) => typeof part === "string" ? part : (
-    <a key={index} href={part.href} target={part.href?.startsWith("http") ? "_blank" : undefined} rel={part.href?.startsWith("http") ? "noreferrer" : undefined}>{part.text}</a>
-  ));
+  return value.map((part, index) => {
+    if (typeof part === "string") return part;
+    if (part.bold || part.strong) return <strong key={index}>{part.text}</strong>;
+    if (part.href) {
+      const external = part.href.startsWith("http");
+      return <a key={index} href={part.href} target={external ? "_blank" : undefined} rel={external ? "noreferrer" : undefined}>{part.text}</a>;
+    }
+    return <span key={index}>{part.text}</span>;
+  });
 }
 
 function highlightName(authors) {
