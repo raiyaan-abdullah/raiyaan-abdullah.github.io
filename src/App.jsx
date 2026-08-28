@@ -32,7 +32,6 @@ function App() {
       <a className="skip-link" href="#main-content">Skip to content</a>
       <header className="site-header">
         <a className="brand" href={baseUrl} aria-label={`${profile.name} home`}>
-          <img src={`${baseUrl}images/athena-mark.svg`} width="30" height="30" alt="" aria-hidden="true" />
           <span>{profile.name}</span>
         </a>
 

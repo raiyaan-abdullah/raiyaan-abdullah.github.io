@@ -436,15 +436,6 @@ a:focus-visible {
   font-size: 0.94rem;
 }
 
-.brand img {
-  width: 30px;
-  height: 30px;
-  border: 1px solid var(--border);
-  border-radius: 7px;
-  background: var(--panel-bg);
-  padding: 3px;
-}
-
 .brand:hover,
 .primary-nav a:hover,
 .theme-button:hover,
