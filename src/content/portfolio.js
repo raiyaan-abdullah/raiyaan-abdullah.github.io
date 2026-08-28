@@ -14,11 +14,24 @@ export const profile = {
   location: "Oviedo, Florida, USA",
   email: "raiyaanabdullah@gmail.com",
   avatar: "images/raiyaan_photo.jpg",
-  resume: "https://drive.google.com/file/d/1hVtSuLzON7tw6Wr4zKM0nfDR3I5wLmM-/view?usp=sharing",
   about: [
-    "I am a Ph.D. researcher at the University of Central Florida working on video understanding and Vision-Language Models (VLMs). My research focuses on identifying where multimodal models fail, building targeted benchmarks to evaluate their capabilities, and developing methods that improve reasoning over complex video data.",
+    [
+      "I am a ",
+      { text: "Ph.D. researcher", bold: true },
+      " at the University of Central Florida working on ",
+      { text: "video understanding", bold: true },
+      " and ",
+      { text: "Vision-Language Models (VLMs)", bold: true },
+      ". My research focuses on identifying where multimodal models fail, building targeted benchmarks to evaluate their capabilities, and developing methods that improve reasoning over complex video data."
+    ],
 
-    "I am particularly interested in building reliable and generalizable multimodal AI systems that can understand human actions, motion, and long-form visual information. My work spans dataset design, model evaluation, and method development for next-generation video and multimodal AI.",
+    [
+      "I am particularly interested in building ",
+      { text: "reliable and generalizable multimodal AI systems", bold: true },
+      " that can understand human actions, motion, and long-form visual information. My work spans ",
+      { text: "dataset design, model evaluation, and method development", bold: true },
+      " for next-generation video and multimodal AI."
+    ],
 
     [
       "I am a Ph.D. student and Graduate Teaching/Research Assistant at the ",
@@ -36,10 +49,13 @@ export const profile = {
         text: "Dr. Yogesh Singh Rawat",
         href: "https://www.crcv.ucf.edu/person/rawat/"
       },
-      ". I am interested in research scientist, applied scientist, and research internship opportunities in multimodal AI, computer vision, and video understanding."
+      ". I am interested in ",
+      { text: "research scientist, applied scientist, and research internship opportunities", bold: true },
+      " in multimodal AI, computer vision, and video understanding."
     ]
   ],
   links: [
+    { label: "Resume", href: "https://drive.google.com/file/d/1hVtSuLzON7tw6Wr4zKM0nfDR3I5wLmM-/view?usp=sharing", icon: "fa-solid fa-file-pdf" },
     { label: "Email", href: "mailto:raiyaanabdullah@gmail.com", icon: "fa-solid fa-envelope" },
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=QA8alkEAAAAJ&hl=en", icon: "fa-solid fa-graduation-cap" },
     { label: "GitHub", href: "https://github.com/raiyaan-abdullah", icon: "fa-brands fa-github" },
@@ -48,6 +64,24 @@ export const profile = {
 };
 
 export const publications = [
+  {
+    title: "Learning to Deny: Action Denial in Multimodal Large Language Models",
+    venue: "ECCV 2026",
+    year: "2026",
+    authors: "Raiyaan Abdullah, Shehreen Azad, Yogesh Singh Rawat",
+    image: "images/exercise/direction_demonstration.jpg",
+    publicationHref: "https://arxiv.org/abs/2606.31187",
+    projectHref: "https://raiyaan.xyz/Learn-to-Deny-webpage/"
+  },
+  {
+    title: "LG-Align: Language-Guided Global Retrieval to Local Region Voting",
+    venue: "ECCVW 2026",
+    year: "2026",
+    authors: "Fahimul Aleem, Raiyaan Abdullah, Shruti Vyas",
+    image: "images/saline/fullsystem.jpg",
+    publicationHref: "https://drive.google.com/file/d/1N86-S3t7NQTL_tKKWwPNEjf24odbPeIy/view?usp=sharing",
+    projectHref: "https://fahim17.github.io/LGAlign_Two_Stage/"
+  },
   {
     title: "Punching Bag vs. Punching Person: Motion Transferability in Videos",
     venue: "ICCV 2025",
@@ -73,7 +107,7 @@ export const publications = [
     authors: "Madeline Schiappa, Raiyaan Abdullah, Shehreen Azad, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat",
     image: "images/handwriting/b-landmarks.jpg",
     publicationHref: "https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Schiappa_Probing_Conceptual_Understanding_of_Large_Visual-Language_Models_CVPRW_2024_paper.pdf",
-    projectHref: "https://tinyurl.com/vlm-robustness"
+    projectHref: "https://github.com/DeepLearningRobustnessStudies/UnderstandingVisualTextModels"
   },
   {
     title: "STPT: Spatio-Temporal Polychromatic Trajectory Based Elderly Exercise Evaluation System",
@@ -82,22 +116,6 @@ export const publications = [
     authors: "Riad Ahmed, Raiyaan Abdullah, Lafifa Jamal",
     image: "images/exercise/methodology_overview.jpg",
     publicationHref: "https://ieeexplore.ieee.org/abstract/document/10098793"
-  },
-  {
-    title: "A Novel IoT-Based Medicine Consumption System for Elders",
-    venue: "SN Computer Science",
-    year: "2022",
-    authors: "Raiyaan Abdullah, Riad Ahmed, Lafifa Jamal",
-    image: "images/medicine/algorithm_workflow.png",
-    publicationHref: "https://link.springer.com/article/10.1007/s42979-022-01367-8"
-  },
-  {
-    title: "Pathfinder: A Fog Assisted Vision-Based System for Optimal Path Selection of Service Robots",
-    venue: "ICIEV and icIVPR 2020",
-    year: "2020",
-    authors: "Niloy Irtisam, Riad Ahmed, Mohammad Moniruzzaman Akash, Raiyaan Abdullah, Sujan Sarker, Sejuti Rahman, Lafifa Jamal",
-    image: "images/eight_puzzle.png",
-    publicationHref: "https://ieeexplore.ieee.org/document/9306573"
   }
 ];
 
@@ -120,9 +138,22 @@ export const education = [
   { period: "2006 – 2014", title: "Secondary School Certificate (Grades 3–10)", place: "St. Joseph Higher Secondary School, Dhaka, Bangladesh", href: "https://sjs.edu.bd/new/index.php" }
 ];
 
-export const reviewerService = [
-  { category: "Direct Assignment", items: ["CVPR"] },
-  { category: "As Part of CRCV", items: ["CVPR", "ICCV", "ICLR", "ICML", "NeurIPS"] }
+export const voluntaryOpportunities = [
+  {
+    title: "Mentor, International Robot Olympiad '19, '21",
+    place: "Bangladesh Team",
+    href: "https://bdro.org/results/2021-iro-result/",
+    detail: "Mentored young robotics competitors who went on to win gold, silver, and bronze accolades."
+  },
+  { title: "ICLR '24, '25, '26" },
+  { title: "CVPR '24, '25, '26" },
+  { title: "ICML '24" },
+  { title: "NeurIPS '24, '25, '26" },
+  { title: "ICCV '25" },
+  { title: "ECCV '26" },
+  { title: "Pattern Recognition '26" },
+  { title: "BMVC '26" },
+  { title: "IEEE Transactions on Multimedia '26" }
 ];
 
 export const experience = [
@@ -139,13 +170,6 @@ export const experience = [
     place: "Under Dr. Sejuti Rahman",
     href: "https://www.du.ac.bd/faculty/faculty_details/RME/2150",
     detail: "Investigated few-shot learning for detecting Bangladesh-specific vehicles from drone footage and monitoring traffic accidents in metropolitan areas."
-  },
-  {
-    period: "2019, 2021",
-    title: "Mentor, International Robot Olympiad",
-    place: "Bangladesh Team",
-    href: "https://bdro.org/results/2021-iro-result/",
-    detail: "Mentored young robotics competitors who went on to win gold, silver, and bronze accolades."
   }
 ];
 

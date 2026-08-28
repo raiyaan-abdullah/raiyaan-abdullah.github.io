@@ -6,8 +6,8 @@ import {
   experience,
   profile,
   publications,
-  reviewerService,
-  siteMeta
+  siteMeta,
+  voluntaryOpportunities
 } from "./content/portfolio.js";
 import { fallbackTitleIcon, sectionIconMap } from "./icons.js";
 
@@ -16,7 +16,7 @@ const baseUrl = import.meta.env.BASE_URL;
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [theme, setTheme] = useState(getInitialTheme);
-  const sections = ["publications", "education", "experience", "awards", "service"];
+  const sections = ["publications", "education", "experience", "awards", "voluntary-opportunities"];
 
   useEffect(() => {
     document.title = siteMeta.title;
@@ -95,11 +95,6 @@ function HomePage() {
       <section className="section about-section" aria-label="Introduction">
         <div className="intro-copy">
           {profile.about.map((paragraph, index) => <p key={index}>{renderRichText(paragraph)}</p>)}
-          <div className="action-links">
-            <a href={profile.resume} target="_blank" rel="noreferrer">
-              <i className="fa-solid fa-file-pdf" aria-hidden="true" /> Resume
-            </a>
-          </div>
         </div>
       </section>
       <ContentSection id="publications" title="Publications">
@@ -120,8 +115,8 @@ function HomePage() {
       <ContentSection id="awards" title="Awards">
         <Timeline items={awards} />
       </ContentSection>
-      <ContentSection id="service" title="Reviewer Experience">
-        <GroupedItems groups={reviewerService} icon={sectionIconMap["Reviewer Experience"]} />
+      <ContentSection id="voluntary-opportunities" title="Voluntary Opportunities">
+        <Timeline items={voluntaryOpportunities} />
       </ContentSection>
     </>
   );
@@ -209,23 +204,8 @@ function Timeline({ items }) {
             {item.place ? item.href ? <a className="timeline-place" href={item.href} target="_blank" rel="noreferrer">{item.place}</a> : <span className="timeline-place">{item.place}</span> : null}
             {item.detail ? <p>{renderRichText(item.detail)}</p> : null}
           </div>
-          <time>{item.period}</time>
+          {item.period ? <time>{item.period}</time> : null}
         </article>
-      ))}
-    </div>
-  );
-}
-
-function GroupedItems({ groups, icon = fallbackTitleIcon }) {
-  return (
-    <div className="service-groups">
-      {groups.map((group) => (
-        <section className="service-group" key={group.category}>
-          <h3><span className="title-icon" aria-hidden="true"><Icon className="semantic-icon" icon={icon} /></span>{group.category}</h3>
-          <div className="service-chip-grid">
-            {group.items.map((item) => <span className="service-chip" key={item}>{item}</span>)}
-          </div>
-        </section>
       ))}
     </div>
   );
@@ -245,7 +225,6 @@ function highlightName(authors) {
 }
 
 function sectionLabel(section) {
-  if (section === "service") return "Reviewer Experience";
   return section.replace(/(^|-)\w/g, (value) => value.toUpperCase());
 }
 
