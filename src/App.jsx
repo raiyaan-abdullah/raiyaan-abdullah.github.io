@@ -1,15 +1,11 @@
 import { useEffect, useState } from "react";
 import { Icon } from "@iconify/react";
 import {
-  currentAwards,
-  currentEducation,
-  currentPublications,
-  earlyAwards,
-  earlyEducation,
-  earlyExperience,
-  earlyGrants,
-  earlyPublications,
+  awards,
+  education,
+  experience,
   profile,
+  publications,
   reviewerService,
   siteMeta
 } from "./content/portfolio.js";
@@ -94,14 +90,6 @@ function App() {
 }
 
 function HomePage() {
-  const publications = [...currentPublications, ...earlyPublications];
-  const education = [...currentEducation, ...earlyEducation];
-  const awardsAndGrants = [
-    ...currentAwards.map((item) => ({ period: item.year, title: item.text })),
-    ...earlyGrants,
-    ...earlyAwards.flatMap((group) => group.items.map((item) => ({ title: item, detail: group.category })))
-  ];
-
   return (
     <>
       <section className="section about-section" aria-label="Introduction">
@@ -116,15 +104,21 @@ function HomePage() {
       </section>
       <ContentSection id="publications" title="Publications">
         <PublicationList publications={publications} />
+        <p className="publication-more">
+          <a href={profile.links.find((link) => link.label === "Google Scholar")?.href} target="_blank" rel="noreferrer">
+            <i className="ai ai-google-scholar" aria-hidden="true" />
+            Click to view my Google Scholar to see the full list of publications
+          </a>
+        </p>
       </ContentSection>
       <ContentSection id="education" title="Education">
         <Timeline items={education} />
       </ContentSection>
       <ContentSection id="experience" title="Experience">
-        <Timeline items={earlyExperience} />
+        <Timeline items={experience} />
       </ContentSection>
       <ContentSection id="awards" title="Awards">
-        <Timeline items={awardsAndGrants} />
+        <Timeline items={awards} />
       </ContentSection>
       <ContentSection id="service" title="Reviewer Experience">
         <GroupedItems groups={reviewerService} icon={sectionIconMap["Reviewer Experience"]} />

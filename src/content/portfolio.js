@@ -15,18 +15,28 @@ export const profile = {
   email: "raiyaanabdullah@gmail.com",
   avatar: "images/raiyaan_photo.jpg",
   resume: "https://drive.google.com/file/d/1hVtSuLzON7tw6Wr4zKM0nfDR3I5wLmM-/view?usp=sharing",
-  focus: ["Computer Vision", "Video Understanding", "Action Recognition", "Datasets"],
   about: [
-    "Recent Vision-Language Models (VLMs) have demonstrated remarkable capabilities in text and image analysis, but they still face significant challenges in processing and understanding video data, regardless of their scale.",
-    "I focus on identifying failure cases, curating specialized datasets to evaluate these models, and proposing methods to boost accuracy. Advancing video understanding is critical for achieving AGI.",
+    "I am a Ph.D. researcher at the University of Central Florida working on video understanding and Vision-Language Models (VLMs). My research focuses on identifying where multimodal models fail, building targeted benchmarks to evaluate their capabilities, and developing methods that improve reasoning over complex video data.",
+
+    "I am particularly interested in building reliable and generalizable multimodal AI systems that can understand human actions, motion, and long-form visual information. My work spans dataset design, model evaluation, and method development for next-generation video and multimodal AI.",
+
     [
       "I am a Ph.D. student and Graduate Teaching/Research Assistant at the ",
-      { text: "Institute of Artificial Intelligence", href: "https://www.ucf.edu/institute-of-artificial-intelligence/" },
+      {
+        text: "Institute of Artificial Intelligence",
+        href: "https://www.ucf.edu/institute-of-artificial-intelligence/"
+      },
       ", ",
-      { text: "University of Central Florida (UCF)", href: "https://www.ucf.edu/" },
+      {
+        text: "University of Central Florida (UCF)",
+        href: "https://www.ucf.edu/"
+      },
       ", supervised by ",
-      { text: "Dr. Yogesh Singh Rawat", href: "https://www.crcv.ucf.edu/person/rawat/" },
-      "."
+      {
+        text: "Dr. Yogesh Singh Rawat",
+        href: "https://www.crcv.ucf.edu/person/rawat/"
+      },
+      ". I am interested in research scientist, applied scientist, and research internship opportunities in multimodal AI, computer vision, and video understanding."
     ]
   ],
   links: [
@@ -37,7 +47,7 @@ export const profile = {
   ]
 };
 
-export const currentPublications = [
+export const publications = [
   {
     title: "Punching Bag vs. Punching Person: Motion Transferability in Videos",
     venue: "ICCV 2025",
@@ -64,37 +74,7 @@ export const currentPublications = [
     image: "images/handwriting/b-landmarks.jpg",
     publicationHref: "https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Schiappa_Probing_Conceptual_Understanding_of_Large_Visual-Language_Models_CVPRW_2024_paper.pdf",
     projectHref: "https://tinyurl.com/vlm-robustness"
-  }
-];
-
-export const currentEducation = [{
-  period: "Fall 2023 – Present",
-  title: "Ph.D. Student and Graduate Teaching/Research Assistant",
-  place: "Institute of Artificial Intelligence, University of Central Florida",
-  href: "https://www.ucf.edu/institute-of-artificial-intelligence/",
-  detail: ["Supervisor: ", { text: "Dr. Yogesh Singh Rawat", href: "https://www.crcv.ucf.edu/person/rawat/" }, "."]
-}];
-
-export const currentAwards = [{ text: "ORCGS Doctoral Fellowship, UCF", year: "2023–2024" }];
-
-export const reviewerService = [
-  { category: "Direct Assignment", items: ["CVPR"] },
-  { category: "As Part of CRCV", items: ["CVPR", "ICCV", "ICLR", "ICML", "NeurIPS"] }
-];
-
-export const earlyEducation = [
-  {
-    period: "Jan. 2017 – Jan. 2022",
-    title: "Bachelor of Science in Robotics and Mechatronics Engineering",
-    place: "University of Dhaka, Bangladesh",
-    href: "https://www.du.ac.bd/",
-    detail: ["Supervisor: ", { text: "Dr. Lafifa Jamal", href: "https://www.du.ac.bd/faculty/faculty_details/RME/1774" }, ". Completion was delayed by COVID-19."]
   },
-  { period: "2014 – 2016", title: "Higher Secondary Certificate (Grades 11–12)", place: "Notre Dame College, Dhaka, Bangladesh", href: "https://ndc.edu.bd/" },
-  { period: "2006 – 2014", title: "Secondary School Certificate (Grades 3–10)", place: "St. Joseph Higher Secondary School, Dhaka, Bangladesh", href: "https://sjs.edu.bd/new/index.php" }
-];
-
-export const earlyPublications = [
   {
     title: "STPT: Spatio-Temporal Polychromatic Trajectory Based Elderly Exercise Evaluation System",
     venue: "IEEE Access",
@@ -121,7 +101,31 @@ export const earlyPublications = [
   }
 ];
 
-export const earlyExperience = [
+export const education = [
+  {
+    period: "Fall 2023 – Present",
+    title: "Ph.D. Student and Graduate Teaching/Research Assistant",
+    place: "Institute of Artificial Intelligence, University of Central Florida",
+    href: "https://www.ucf.edu/institute-of-artificial-intelligence/",
+    detail: ["Supervisor: ", { text: "Dr. Yogesh Singh Rawat", href: "https://www.crcv.ucf.edu/person/rawat/" }, "."]
+  },
+  {
+    period: "Jan. 2017 – Jan. 2022",
+    title: "Bachelor of Science in Robotics and Mechatronics Engineering",
+    place: "University of Dhaka, Bangladesh",
+    href: "https://www.du.ac.bd/",
+    detail: ["Supervisor: ", { text: "Dr. Lafifa Jamal", href: "https://www.du.ac.bd/faculty/faculty_details/RME/1774" }, ". Completion was delayed by COVID-19."]
+  },
+  { period: "2014 – 2016", title: "Higher Secondary Certificate (Grades 11–12)", place: "Notre Dame College, Dhaka, Bangladesh", href: "https://ndc.edu.bd/" },
+  { period: "2006 – 2014", title: "Secondary School Certificate (Grades 3–10)", place: "St. Joseph Higher Secondary School, Dhaka, Bangladesh", href: "https://sjs.edu.bd/new/index.php" }
+];
+
+export const reviewerService = [
+  { category: "Direct Assignment", items: ["CVPR"] },
+  { category: "As Part of CRCV", items: ["CVPR", "ICCV", "ICLR", "ICML", "NeurIPS"] }
+];
+
+export const experience = [
   {
     period: "2010 – 2023",
     title: "Co-Founder and Project Manager, Development Team",
@@ -145,23 +149,16 @@ export const earlyExperience = [
   }
 ];
 
-export const earlyGrants = [
+export const awards = [
+  { period: "2023–2024", title: "ORCGS Doctoral Fellowship, UCF" },
   { period: "2020–2021", title: "Special Grant in Research", detail: "Undergraduate thesis project funding from the ICT Division, Government of Bangladesh." },
   { period: "2019–2020", title: "IFIC Bank Trust Fund Research Grant", detail: "Awarded to students in selected departments who excelled in academics and other qualities." },
+  { period: "Jan. 2019", title: "2nd — AUST Mindsparks, Ahsanullah University of Science and Technology", detail: "Line Follower Robot Competition" },
   { period: "2018–2020", title: "Luna Shamsuddoha, Chairman, Janata Bank Limited Scholarship", detail: "Awarded to the top three students of each batch in selected University of Dhaka departments." },
+  { period: "July 2018", title: "3rd — BUET EEE Day Robofiesta, Bangladesh University of Engineering and Technology", detail: "Line Follower Robot Competition" },
+  { period: "June 2018", title: "2nd — AUST Developer Hunt, university website redesign competition", detail: "Web Development Competition" },
   { period: "2017–2020", title: "University Undergraduate Scholarship", detail: "Awarded to the top two students of each batch in every University of Dhaka department." },
+  { period: "Oct. 2017", title: "Champion — IntraDU Robofest, University of Dhaka", detail: "Line Follower Robot Competition" },
+  { period: "July 2017", title: "3rd — DUET Techfest, Dhaka University of Engineering and Technology", detail: "Line Follower Robot Competition" },
   { period: "2016", title: "General Scholarship", detail: "Awarded for outstanding results in the Higher Secondary Certificate examination." }
-];
-
-export const earlyAwards = [
-  {
-    category: "Line Follower Robot Competitions",
-    items: [
-      "2nd — AUST Mindsparks, Ahsanullah University of Science and Technology (Jan. 2019)",
-      "3rd — BUET EEE Day Robofiesta, Bangladesh University of Engineering and Technology (July 2018)",
-      "Champion — IntraDU Robofest, University of Dhaka (Oct. 2017)",
-      "3rd — DUET Techfest, Dhaka University of Engineering and Technology (July 2017)"
-    ]
-  },
-  { category: "Web Development Competition", items: ["2nd — AUST Developer Hunt, university website redesign competition (June 2018)"] }
 ];

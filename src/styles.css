@@ -1197,6 +1197,22 @@ a:focus-visible {
   margin-bottom: 12px;
 }
 
+.publication-more {
+  margin: 22px 0 0;
+  text-align: center;
+}
+
+.publication-more a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 520;
+}
+
+.publication-more i {
+  font-size: 1.1rem;
+}
+
 .featured-paper {
   position: relative;
   display: grid;
