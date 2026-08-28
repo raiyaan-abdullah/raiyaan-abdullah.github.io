@@ -97,7 +97,7 @@ function HomePage() {
           {profile.about.map((paragraph, index) => <p key={index}>{renderRichText(paragraph)}</p>)}
         </div>
       </section>
-      <ContentSection id="publications" title="Publications">
+      <ContentSection id="publications" title="Key Publications">
         <PublicationList publications={publications} />
         <p className="publication-more">
           <a href={profile.links.find((link) => link.label === "Google Scholar")?.href} target="_blank" rel="noreferrer">

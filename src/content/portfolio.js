@@ -69,7 +69,7 @@ export const publications = [
     venue: "ECCV 2026",
     year: "2026",
     authors: "Raiyaan Abdullah, Shehreen Azad, Yogesh Singh Rawat",
-    image: "images/exercise/direction_demonstration.jpg",
+    image: "images/publications/polsima.png",
     publicationHref: "https://arxiv.org/abs/2606.31187",
     projectHref: "https://raiyaan.xyz/Learn-to-Deny-webpage/"
   },
@@ -78,7 +78,7 @@ export const publications = [
     venue: "ECCVW 2026",
     year: "2026",
     authors: "Fahimul Aleem, Raiyaan Abdullah, Shruti Vyas",
-    image: "images/saline/fullsystem.jpg",
+    image: "images/publications/lgalign.jpg",
     publicationHref: "https://drive.google.com/file/d/1N86-S3t7NQTL_tKKWwPNEjf24odbPeIy/view?usp=sharing",
     projectHref: "https://fahim17.github.io/LGAlign_Two_Stage/"
   },
@@ -87,7 +87,7 @@ export const publications = [
     venue: "ICCV 2025",
     year: "2025",
     authors: "Raiyaan Abdullah, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat",
-    image: "images/exercise/direction_demonstration.jpg",
+    image: "images/publications/punching_bag.jpg",
     publicationHref: "https://openaccess.thecvf.com/content/ICCV2025/papers/Abdullah_Punching_Bag_vs._Punching_Person_Motion_Transferability_in_Videos_ICCV_2025_paper.pdf",
     projectHref: "https://raiyaan.xyz/Motion-Transfer-webpage/"
   },
@@ -96,7 +96,7 @@ export const publications = [
     venue: "ICCVW 2025",
     year: "2025",
     authors: "Raiyaan Abdullah, Yogesh Singh Rawat, Shruti Vyas",
-    image: "images/saline/fullsystem.jpg",
+    image: "images/publications/isafety.png",
     publicationHref: "https://openaccess.thecvf.com/content/ICCV2025W/VISION%2725/papers/Abdullah_iSafetyBench_A_video-language_benchmark_for_safety_in_industrial_environment_ICCVW_2025_paper.pdf",
     projectHref: "https://isafetybench.github.io/"
   },
@@ -105,7 +105,7 @@ export const publications = [
     venue: "CVPRW 2024",
     year: "2024",
     authors: "Madeline Schiappa, Raiyaan Abdullah, Shehreen Azad, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat",
-    image: "images/handwriting/b-landmarks.jpg",
+    image: "images/publications/ProbeR.png",
     publicationHref: "https://openaccess.thecvf.com/content/CVPR2024W/MMFM/papers/Schiappa_Probing_Conceptual_Understanding_of_Large_Visual-Language_Models_CVPRW_2024_paper.pdf",
     projectHref: "https://github.com/DeepLearningRobustnessStudies/UnderstandingVisualTextModels"
   },
