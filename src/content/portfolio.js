@@ -66,7 +66,7 @@ export const profile = {
 export const publications = [
   {
     title: "Learning to Deny: Action Denial in Multimodal Large Language Models",
-    venue: "ECCV 2026 Spotlight 🌟",
+    venue: "ECCV Spotlight 🌟",
     year: "2026",
     authors: "Raiyaan Abdullah, Shehreen Azad, Yogesh Singh Rawat",
     image: "images/publications/polsima.png",
@@ -84,7 +84,7 @@ export const publications = [
   },
   {
     title: "Punching Bag vs. Punching Person: Motion Transferability in Videos",
-    venue: "ICCV 2025",
+    venue: "ICCV",
     year: "2025",
     authors: "Raiyaan Abdullah, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat",
     image: "images/publications/punching_bag.jpg",
