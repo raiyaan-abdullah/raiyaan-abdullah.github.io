@@ -140,14 +140,14 @@ export const education = [
 
 export const service = {
   reviewer: [
-    "ICLR '24, '25, '26",
     "CVPR '24, '25, '26",
-    "ICML '24",
-    "NeurIPS '24, '25, '26",
     "ICCV '25",
     "ECCV '26",
-    "Pattern Recognition '26",
     "BMVC '26",
+    "ICLR '24, '25, '26",
+    "ICML '24",
+    "NeurIPS '24, '25, '26",
+    "Pattern Recognition '26",
     "IEEE Transactions on Multimedia '26"
   ],
   mentorship: {
