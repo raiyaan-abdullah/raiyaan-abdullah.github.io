@@ -101,7 +101,7 @@ function HomePage() {
         <p className="publication-more">
           <a href={profile.links.find((link) => link.label === "Google Scholar")?.href} target="_blank" rel="noreferrer">
             <i className="ai ai-google-scholar" aria-hidden="true" />
-            Click to view my Google Scholar to see the full list of publications
+            Visit my Google Scholar to see the full list of publications
           </a>
         </p>
       </ContentSection>
