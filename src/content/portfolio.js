@@ -75,7 +75,7 @@ export const publications = [
   },
   {
     title: "LG-Align: Language-Guided Global Retrieval to Local Region Voting",
-    venue: "ECCVW GAIA Workshop Best Paper 🌟",
+    venue: "ECCV GAIA Workshop Best Paper 🌟",
     year: "2026",
     authors: "Fahimul Aleem, Raiyaan Abdullah, Shruti Vyas",
     image: "images/publications/lgalign.jpg",
@@ -93,7 +93,7 @@ export const publications = [
   },
   {
     title: "iSafetyBench: A Video-Language Benchmark for Safety in Industrial Environment",
-    venue: "ICCVW VISION Workshop",
+    venue: "ICCV VISION Workshop",
     year: "2025",
     authors: "Raiyaan Abdullah, Yogesh Singh Rawat, Shruti Vyas",
     image: "images/publications/isafety.png",
@@ -102,7 +102,7 @@ export const publications = [
   },
   {
     title: "Probing Conceptual Understanding of Large Visual-Language Models",
-    venue: "CVPRW MMFM Workshop",
+    venue: "CVPR MMFM Workshop",
     year: "2024",
     authors: "Madeline Schiappa, Raiyaan Abdullah, Shehreen Azad, Jared Claypoole, Michael Cogswell, Ajay Divakaran, Yogesh Singh Rawat",
     image: "images/publications/ProbeR.png",
