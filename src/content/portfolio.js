@@ -198,7 +198,8 @@ export const experience = [
 ];
 
 export const awards = [
-  { period: "2026", title: "ECCV 2026 Spotlight paper" },
+  { period: "2026", title: "Spotlight Paper, ECCV 2026" },
+  { period: "2026", title: "Best Paper Award, ECCV 2026 GAIA Workshop" },
   { period: "2023–2024", title: "ORCGS Doctoral Fellowship, UCF" },
   { period: "2020–2021", title: "Special Grant in Research", detail: "Undergraduate thesis project funding from the ICT Division, Government of Bangladesh." },
   { period: "2019–2020", title: "IFIC Bank Trust Fund Research Grant", detail: "Awarded to students in selected departments who excelled in academics and other qualities." },
