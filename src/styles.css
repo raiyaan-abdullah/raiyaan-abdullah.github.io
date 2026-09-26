@@ -239,6 +239,10 @@
   --fa: "\f302";
 }
 
+.fa-hourglass-half {
+  --fa: "\f252";
+}
+
 .fa-link {
   --fa: "\f0c1";
 }
