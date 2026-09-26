@@ -87,7 +87,7 @@ export const publications = [
     year: "2026",
     authors: "Fahimul Aleem, Raiyaan Abdullah, Shruti Vyas",
     image: "images/publications/lgalign.jpg",
-    publicationHref: "https://drive.google.com/file/d/1N86-S3t7NQTL_tKKWwPNEjf24odbPeIy/view?usp=sharing",
+    publicationHref: "https://openreview.net/pdf?id=NrGirVyvJi",
     projectHref: "https://fahim17.github.io/LGAlign_Two_Stage/"
   },
   {
