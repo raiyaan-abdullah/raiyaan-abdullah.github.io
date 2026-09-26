@@ -77,7 +77,8 @@ export const publications = [
     title: "A³Bench: A Benchmark for Compositional Reasoning over Aggressive Interactions in Videos",
     venue: "NeurIPS E&D",
     year: "2026",
-    authors: "Austin C Baker, Raiyaan Abdullah, Daniel Zeev Yoffe, Shruti Vyas, Yogesh S Rawat",
+    authors: "Austin C Baker*, Raiyaan Abdullah*, Daniel Zeev Yoffe, Shruti Vyas, Yogesh S Rawat",
+    authorNote: "* Equal contribution",
     image: "images/publications/a3_bench.png"
   },
   {

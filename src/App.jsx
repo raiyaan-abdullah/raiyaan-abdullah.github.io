@@ -183,6 +183,7 @@ function PublicationCard({ publication }) {
         <span className="paper-venue-line"><i className="fa-solid fa-building-columns" aria-hidden="true" />{publication.venue}<time>{publication.year}</time></span>
         <h4>{publication.title}</h4>
         <p className="authors">{highlightName(publication.authors)}</p>
+        {publication.authorNote ? <p className="author-note">{publication.authorNote}</p> : null}
         {publication.summary ? <p>{publication.summary}</p> : null}
         <div className="action-links">
           {publication.publicationHref ? <a href={publication.publicationHref} target="_blank" rel="noreferrer"><i className="fa-solid fa-file-lines" aria-hidden="true" /> View publication</a> : null}

@@ -1470,6 +1470,13 @@ a:focus-visible {
   font-weight: 560;
 }
 
+.featured-paper-copy .author-note {
+  margin-top: 2px;
+  color: var(--subtle);
+  font-size: 0.74rem;
+  font-style: italic;
+}
+
 .paper-tags,
 .project-tags {
   display: flex;
