@@ -41,10 +41,10 @@ export const profile = {
     [
       "I am currently enrolled at the ",
       {
-        text: "Institute of Artificial Intelligence (IAI), UCF, ",
+        text: "Institute of Artificial Intelligence (IAI), UCF",
         href: "https://www.ucf.edu/institute-of-artificial-intelligence/"
       },
-      "supervised by ",
+      ", supervised by ",
       {
         text: "Dr. Yogesh Singh Rawat",
         href: "https://www.crcv.ucf.edu/person/rawat/"
