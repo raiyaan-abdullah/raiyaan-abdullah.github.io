@@ -187,7 +187,7 @@ function PublicationCard({ publication }) {
         <div className="action-links">
           {publication.publicationHref ? <a href={publication.publicationHref} target="_blank" rel="noreferrer"><i className="fa-solid fa-file-lines" aria-hidden="true" /> View publication</a> : null}
           {publication.projectHref ? <a href={publication.projectHref} target="_blank" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" /> View project page</a> : null}
-          {!publication.publicationHref && !publication.projectHref ? <button type="button" disabled><i className="fa-solid fa-clock" aria-hidden="true" /> Detailed links coming soon!</button> : null}
+          {!publication.publicationHref && !publication.projectHref ? <button type="button" disabled><i className="fa-solid fa-hourglass-half" aria-hidden="true" /> Detailed links coming soon!</button> : null}
         </div>
       </div>
     </article>
