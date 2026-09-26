@@ -18,7 +18,7 @@ export const profile = {
     [
       "I am a ",
       { text: "Ph.D. researcher", bold: true },
-      " at the University of Central Florida working on ",
+      " at the University of Central Florida (UCF) working on ",
       { text: "multimodal AI", bold: true },
       ", ",
       { text: "video perception", bold: true },
@@ -41,10 +41,10 @@ export const profile = {
     [
       "I am currently enrolled at the ",
       {
-        text: "Institute of Artificial Intelligence",
+        text: "Institute of Artificial Intelligence (IAI), UCF, ",
         href: "https://www.ucf.edu/institute-of-artificial-intelligence/"
       },
-      ", University of Central Florida (UCF), supervised by ",
+      "supervised by ",
       {
         text: "Dr. Yogesh Singh Rawat",
         href: "https://www.crcv.ucf.edu/person/rawat/"
