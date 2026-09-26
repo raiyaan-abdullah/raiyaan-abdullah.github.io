@@ -44,12 +44,7 @@ export const profile = {
         text: "Institute of Artificial Intelligence",
         href: "https://www.ucf.edu/institute-of-artificial-intelligence/"
       },
-      ", ",
-      {
-        text: "University of Central Florida (UCF)",
-        href: "https://www.ucf.edu/"
-      },
-      ", supervised by ",
+      ", University of Central Florida (UCF), supervised by ",
       {
         text: "Dr. Yogesh Singh Rawat",
         href: "https://www.crcv.ucf.edu/person/rawat/"
@@ -59,7 +54,7 @@ export const profile = {
         text: "research scientist, applied scientist, and research internship opportunities",
         bold: true
       },
-      " in multimodal AI, computer vision, video understanding, and related areas."
+      " in multimodal AI, foundation models, computer vision, video understanding, and visual reasoning."
     ]
   ],
   links: [
