@@ -1,7 +1,7 @@
 export const siteMeta = {
   brand: "Raiyaan Abdullah",
   title: "Raiyaan Abdullah | Computer Vision Researcher",
-  description: "Raiyaan Abdullah is a Ph.D. student at UCF researching computer vision, video understanding, action recognition, and datasets.",
+  description: "Raiyaan Abdullah is a Ph.D. student at UCF researching multimodal AI, video perception, human action understanding, model evaluation, and dataset design.",
   socialDescription: "Research, publications, education, and experience of Raiyaan Abdullah.",
   url: "https://raiyaan.xyz/",
   image: "https://raiyaan.xyz/images/raiyaan_photo.jpg"
@@ -19,18 +19,23 @@ export const profile = {
       "I am a ",
       { text: "Ph.D. researcher", bold: true },
       " at the University of Central Florida working on ",
-      { text: "video understanding", bold: true },
-      " and ",
-      { text: "Vision-Language Models (VLMs)", bold: true },
-      ". My research focuses on identifying where multimodal models fail, building targeted benchmarks to evaluate their capabilities, and developing methods that improve reasoning over complex video data."
+      { text: "multimodal AI", bold: true },
+      ", ",
+      { text: "video perception", bold: true },
+      ", and ",
+      { text: "human action understanding", bold: true },
+      ". My research focuses on understanding how modern multimodal and video models represent, reason over, and generalize from complex visual information, particularly under changes in context, motion, and supervision."
     ],
 
     [
       "I am particularly interested in building ",
       { text: "reliable and generalizable multimodal AI systems", bold: true },
-      " that can understand human actions, motion, and long-form visual information. My work spans ",
-      { text: "dataset design, model evaluation, and method development", bold: true },
-      " for next-generation video and multimodal AI."
+      " by studying model behavior, designing targeted evaluations, and developing methods that improve robustness, reasoning, and adaptation. My work spans ",
+      {
+        text: "video understanding, multimodal model analysis, action-centric visual reasoning, benchmark and dataset design, model evaluation, and method development",
+        bold: true
+      },
+      "."
     ],
 
     [
@@ -50,8 +55,11 @@ export const profile = {
         href: "https://www.crcv.ucf.edu/person/rawat/"
       },
       ". I am interested in ",
-      { text: "research scientist, applied scientist, and research internship opportunities", bold: true },
-      " in multimodal AI, computer vision, and video understanding."
+      {
+        text: "research scientist, applied scientist, and research internship opportunities",
+        bold: true
+      },
+      " in multimodal AI, computer vision, video understanding, and related areas."
     ]
   ],
   links: [
