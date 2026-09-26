@@ -74,6 +74,13 @@ export const publications = [
     projectHref: "https://raiyaan.xyz/Learn-to-Deny-webpage/"
   },
   {
+    title: "A³Bench: A Benchmark for Compositional Reasoning over Aggressive Interactions in Videos",
+    venue: "NeurIPS E&D",
+    year: "2026",
+    authors: "Austin C Baker, Raiyaan Abdullah, Daniel Zeev Yoffe, Shruti Vyas, Yogesh S Rawat",
+    image: "images/publications/a3_bench.png"
+  },
+  {
     title: "LG-Align: Language-Guided Global Retrieval to Local Region Voting",
     venue: "ECCV GAIA Workshop Best Paper 🌟",
     year: "2026",

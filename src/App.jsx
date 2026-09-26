@@ -185,8 +185,9 @@ function PublicationCard({ publication }) {
         <p className="authors">{highlightName(publication.authors)}</p>
         {publication.summary ? <p>{publication.summary}</p> : null}
         <div className="action-links">
-          <a href={publication.publicationHref} target="_blank" rel="noreferrer"><i className="fa-solid fa-file-lines" aria-hidden="true" /> View publication</a>
+          {publication.publicationHref ? <a href={publication.publicationHref} target="_blank" rel="noreferrer"><i className="fa-solid fa-file-lines" aria-hidden="true" /> View publication</a> : null}
           {publication.projectHref ? <a href={publication.projectHref} target="_blank" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true" /> View project page</a> : null}
+          {!publication.publicationHref && !publication.projectHref ? <button type="button" disabled><i className="fa-solid fa-clock" aria-hidden="true" /> Detailed links coming soon!</button> : null}
         </div>
       </div>
     </article>

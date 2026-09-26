@@ -1318,7 +1318,8 @@ a:focus-visible {
   margin-top: 13px;
 }
 
-.action-links a {
+.action-links a,
+.action-links button {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -1326,6 +1327,7 @@ a:focus-visible {
   border-radius: 6px;
   background: var(--control-bg);
   color: var(--blue);
+  font-family: inherit;
   font-size: 0.76rem;
   font-weight: 500;
   padding: 5px 8px;
@@ -1336,6 +1338,11 @@ a:focus-visible {
     transform 160ms ease;
 }
 
+.action-links button:disabled {
+  color: var(--muted);
+  cursor: default;
+}
+
 .action-links a:hover {
   border-color: var(--title-icon-border);
   background: var(--blue-soft);
@@ -1343,7 +1350,8 @@ a:focus-visible {
   transform: translateY(-1px);
 }
 
-.action-links a > i {
+.action-links a > i,
+.action-links button > i {
   min-width: 1em;
   text-align: center;
 }
